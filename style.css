@@ -1,0 +1,57 @@
+.navbar.nav a {
+  color: white !important;
+  opacity: 0.5;
+  &:hover {
+    opacity: 0.8;
+  }
+}
+
+.navbar {
+  opacity: 0.9;
+}
+
+span {
+  color: red !important;
+}
+
+.navbar-toggler {
+  color: grey !important;
+}
+
+.header {
+  background: url(./img-boot/banner.jpeg) no-repeat center center;
+  /* no repeat goreli tekrar doldurmak  */
+  /* center center kullniammi   */
+  background-size: cover;
+  height: 100vh;
+  color: purple;
+  padding-top: 20%;
+}
+
+
+.portfolio, .about-us{
+    background-color: #f8f9fa;
+
+}
+
+
+
+.card img{
+    object-fit: cover ;
+}
+
+.profile a{
+    background-color: black;
+}
+
+.social{
+    border-radius: 50% !important;
+}
+
+
+.contact-us{
+  background: url(./img-boot/map.jpeg) center center no-repeat;
+  background-size:cover ;
+}
+
+
